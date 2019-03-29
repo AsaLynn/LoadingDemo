@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/mndialoglibrary" />
+            <option value="$PROJECT_DIR$/loadingbox" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

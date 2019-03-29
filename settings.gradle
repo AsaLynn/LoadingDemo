@@ -1,1 +1,1 @@
-include ':app', ':mndialoglibrary'
+include ':app', ':loadingbox'
