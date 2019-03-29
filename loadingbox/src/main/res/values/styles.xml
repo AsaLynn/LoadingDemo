@@ -15,7 +15,7 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <declare-styleable name="MNHudProgressWheel">
+    <declare-styleable name="LoadingProgressWheel">
         <attr name="mn_progressIndeterminate" format="boolean" />
         <attr name="mn_barColor" format="color" />
         <attr name="mn_rimColor" format="color" />

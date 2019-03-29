@@ -24,7 +24,7 @@
         android:paddingTop="12dp">
 
 
-        <com.zxn.load.MNHudProgressWheel
+        <com.zxn.load.LoadingProgressWheel
             android:id="@+id/progress_wheel"
             android:layout_width="45dp"
             android:layout_height="45dp"

@@ -32,7 +32,7 @@ public class LoadingBox {
 
     private static TextView tv_show;
 
-    private static MNHudProgressWheel progress_wheel;
+    private static LoadingProgressWheel progress_wheel;
 
     public static void showProgress(Context context) {
         showProgress(context, LoadingDefaultMsg);
@@ -109,7 +109,7 @@ public class LoadingBox {
         //布局相关
         dialog_window_background = (RelativeLayout) mProgressDialogView.findViewById(R.id.dialog_window_background);
         dialog_view_bg = (RelativeLayout) mProgressDialogView.findViewById(R.id.dialog_view_bg);
-        progress_wheel = (MNHudProgressWheel) mProgressDialogView.findViewById(R.id.progress_wheel);
+        progress_wheel = (LoadingProgressWheel) mProgressDialogView.findViewById(R.id.progress_wheel);
         tv_show = (TextView) mProgressDialogView.findViewById(R.id.tv_show);
         progress_wheel.spin();
 
